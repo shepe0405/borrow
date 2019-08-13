@@ -1,0 +1,65 @@
+/*COR DE TEXTO DAS LISTAS DA SIDENAV*/
+.sidenav li a {
+	color: #263238;
+}
+/*COR DO ICONE E DO TEXTO DA CLASSE USERVIEW NA SIDENAV*/
+.user-view i, span.name {
+	color: #263238;
+}
+/**/
+.prussian-blue {
+	background-color: #0b3c5d;
+}
+.prussian-text {
+	color: #0b3c5d;
+}
+/*COR DE TEXTO DO LABEL DOS CAMPOS DE INPUT QUE TEM ESSE CLASSE*/
+.input-field label {
+	color: #263238;
+}
+/*MESMA COISA QUE O ANTERIOR POREM QUANDO NAO ESTA EM FOCO PELOS TIPOS DE INPUT*/
+.input-field input[type=text]:focus:not([readonly]) + label, .input-field input[type=email]:focus:not([readonly]) + label, textarea.materialize-textarea:focus:not([readonly]) + label, .input-field input[type=password]:focus:not([readonly]) + label  {
+    color: #b71c1c;
+ }
+/* label underline focus color */
+.input-field input[type=text]:focus:not([readonly]), .input-field input[type=email]:focus:not([readonly]), .input-field input[type=password]:focus:not([readonly]) {
+    border-bottom: 1px solid #b71c1c;
+    box-shadow: 0 1px 0 0 #b71c1c;
+ }
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #b71c1c;
+}
+/* label underline focus color TEXTAREA */
+textarea.materialize-textarea:focus:not([readonly]) {
+	border-bottom: 1px solid #b71c1c;
+    box-shadow: 0 1px 0 0 #b71c1c;
+}
+/*COR DO DIA DE HOJE NA CLASSE DATEPICKER*/
+.datepicker-table td.is-today {
+	color: #b71c1c;
+}
+/*COR DE FUNDO DO DATEPICKER*/
+.datepicker-date-display {
+	background-color: #263238;
+}
+/*COR DE TEXTOS DENTRO DO FOOTER DO DATEPICKER*/
+.datepicker-footer {
+	color: #263238;
+}
+/*CORES DOS TEXTOS DE CANCELAR, LIMPAR, HOJE, FEITO*/
+.datepicker-cancel,
+.datepicker-clear,
+.datepicker-today,
+.datepicker-done {
+  color:  #263238;
+}
+/*COR DE FUNDO DO BOTAO REDODNO DO DIA SELECIONADO*/
+.datepicker-table td.is-selected {
+	background-color: #b71c1c;
+}
+
+/*COR DA LINHA DA TABELA PARA DAR EFEITO ZEBRADO*/
+.centered tbody > tr:nth-child(even) {
+	background-color: #cfd8dc;
+}

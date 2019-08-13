@@ -1,0 +1,70 @@
+body, .sidenav {
+	background-color: #f2f2f2;
+}
+nav {
+	background-color: #f2cf66;
+}
+.user-view span, .user-view i, .sidenav li a, h4 {
+	color: #464646;
+}
+.sidenav li a:hover {
+	background-color: #f2cf66;
+	color: white;
+}
+.sidenav li a:hover i {
+	color: white;
+}
+@media (min-width: 900px) {
+.modal {
+	width: 30%;
+	margin-top: 5%;
+	}
+}
+@media (max-width: 900px) {
+.modal {
+	width: 50%;
+	margin-top: 5%;
+	}
+}
+.modal button[type=submit] {
+	width: 100%;
+}
+p.divider {
+	background-color: #464646;
+}
+.sortable li {
+	cursor: pointer;
+	position: relative;
+	padding: 12px 8px 12px 12px;
+	background: #F2CF66;
+	font-size: 18px;
+	transition: 0,2s;
+	color: #464646;
+}
+.sortable li:nth-child(odd) {
+  background: #F2E1AC;
+}
+.input-field input[type=text]:focus:not([readonly]) + label, .input-field input[type=email]:focus:not([readonly]) + label, textarea.materialize-textarea:focus:not([readonly]) + label, .input-field[type=password]:focus:not([readonly]) + label {
+	color: #F1C410;
+}
+.input-field input[type=text]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]), .input-field input[type=email]:focus:not([readonly]), .input-field[type=password]:focus:not([readonly]) {
+	border-bottom: 1px solid #F1C410;
+    box-shadow: 0 1px 0 0 #F1C410;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #F1C410;
+}
+.open div {
+	display: none;
+}
+.row {
+	margin-bottom: 0;
+}
+/*
+#F1C410
+#F2CF66 - header
+#F2E1AC
+#F2F2F2
+#464646
+*/

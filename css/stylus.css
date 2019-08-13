@@ -1,0 +1,143 @@
+body {
+	color: #616161;
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+footer.page-footer, footer a{
+	color: #616161;
+}
+.sortable div.row {
+  margin-bottom: -10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+#rolagem {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.sortable {
+  margin:  0;
+  padding: 0;
+  height: 300px;
+  list-style:  none;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.sortable li:hover {
+  background: #ddd;
+  color: #e53935;
+}
+.sortable li {
+  padding: 5px 10px;
+  cursor: pointer;
+  border-top: 1px solid #ddd;
+  background-color: #eeeeee;
+  color: #616161;
+  font-size: 18px;
+}
+footer a:hover{
+	color: #e53935;
+}
+#del{
+  color: #e53935;
+}
+.modal-content a i{
+  color: #4fc3f7;
+}
+ main {
+    flex: 1 0 auto;
+  }
+#segunda-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e0e0e0;
+}
+#segunda-nav li, #segunda-nav li > a {
+  display: inline-block;
+  color: #616161;
+  text-align: center;
+  padding: 4px 16px;
+  text-decoration: none;
+}
+#segunda-nav li:hover {
+  background-color: #bdbdbd;
+  border-bottom: 5px solid #e53935;
+}
+#segunda-nav li a:hover {
+	color: #e53935;
+}
+/*COR DE TEXTO DAS LISTAS DA SIDENAV*/
+.sidenav li a {
+	color: #616161;
+}
+/*COR DO ICONE E DO TEXTO DA CLASSE USERVIEW NA SIDENAV*/
+.user-view i, span.name {
+	color: #616161;
+}
+.sidenav-trigger i {
+	color: #616161;
+}
+.sidenav li a:hover {
+	color: #e53935;
+}
+a.brand-logo {
+	color: #616161;
+}
+.nav-wrapper ul li a {
+	color: #616161;
+}
+/*MESMA COISA QUE O ANTERIOR POREM QUANDO NAO ESTA EM FOCO PELOS TIPOS DE INPUT*/
+.input-field input[type=text]:focus:not([readonly]) + label, .input-field input[type=email]:focus:not([readonly]) + label, textarea.materialize-textarea:focus:not([readonly]) + label, .input-field input[type=password]:focus:not([readonly]) + label  {
+    color: #e53935;
+ }
+/* label underline focus color */
+.input-field input[type=text]:focus:not([readonly]), .input-field input[type=email]:focus:not([readonly]), .input-field input[type=password]:focus:not([readonly]) {
+    border-bottom: 1px solid #e53935;
+    box-shadow: 0 1px 0 0 #e53935;
+ }
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #e53935;
+}
+/* label underline focus color TEXTAREA */
+textarea.materialize-textarea:focus:not([readonly]) {
+	border-bottom: 1px solid #e53935;
+    box-shadow: 0 1px 0 0 #e53935;
+}
+/*COR DO DIA DE HOJE NA CLASSE DATEPICKER*/
+.datepicker-table td.is-today {
+	color: #e53935;
+}
+/*COR DE FUNDO DO DATEPICKER*/
+.datepicker-date-display {
+	background-color: #263238;
+}
+/*COR DE TEXTOS DENTRO DO FOOTER DO DATEPICKER*/
+.datepicker-footer {
+	color: #263238;
+}
+/*CORES DOS TEXTOS DE CANCELAR, LIMPAR, HOJE, FEITO*/
+.datepicker-cancel,
+.datepicker-clear,
+.datepicker-today,
+.datepicker-done {
+  color:  #263238;
+}
+/*COR DE FUNDO DO BOTAO REDODNO DO DIA SELECIONADO*/
+.datepicker-table td.is-selected {
+	background-color: #b71c1c;
+}
+
+/*COR DA LINHA DA TABELA PARA DAR EFEITO ZEBRADO*/
+.centered tbody > tr:nth-child(even) {
+	background-color: #e0e0e0;
+}
+tbody tr:hover, tbody tr:hover a
+{
+	color: #e53935;
+	cursor: pointer;
+}

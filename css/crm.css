@@ -1,0 +1,114 @@
+.input-field label {
+	color: black;
+}
+.input-field input[type=text]:focus:not([readonly]) + label, textarea.materialize-textarea:focus:not([readonly]) + label, .input-field input[type=password]:focus:not([readonly]) + label, .input-field input[type=email]:focus:not([readonly]) + label  {
+  color: #b71c1c;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus:not([readonly]), .input-field input[type=email]:focus:not([readonly]), .input-field input[type=password]:focus:not([readonly]), .input-field textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #b71c1c;
+  box-shadow: 0 1px 0 0 #b71c1c;
+ }
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #b71c1c;
+}
+img.responsive-img {
+  max-width: 80%;
+  height: 70%;
+  margin-top: 8%;
+}
+
+i.large {
+  color: white;
+}
+.pagination li.active a {
+	padding: 0 15px;
+}
+@media screen and (min-width: 992px) {
+	main {
+		margin-left: 10%;
+	}
+	.card.small h4 {
+		margin-top: 10px;
+	}
+}
+#ulItens li a {
+	color: black;
+}
+#ulItens li:hover {
+	background-color: #bdbdbd;
+	cursor: pointer;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	main {
+		margin-left: 2%;
+	}
+	.card.card-content {
+		padding: 100px;
+	}
+	#graph01, #graph02 {
+		height: 300px;
+	}
+}
+.centered tbody tr:nth-child(even) {
+  background-color: #eceff1;
+}
+@media screen and (max-width: 768px) {
+	main {
+		margin-left: 2%;
+	}
+	.card.card-content {
+		padding: 100px;
+	}
+}
+.card.small {
+	height: 150px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+#graph01, #graph02 {
+	height: 250px;
+}
+.dropdown-content li>span {
+	color: #b71c1c;
+}
+.dropdown-content li>span:hover {
+	background-color: #01579b;
+	color: white;
+}
+.sidenav .collapsible-body li>a:hover {
+	background-color: #b71c1c;
+}
+/*COR DO DIA DE HOJE NA CLASSE DATEPICKER*/
+.datepicker-table td.is-today {
+	color: #0d47a1;
+}
+/*COR DE FUNDO DO DATEPICKER*/
+.datepicker-date-display {
+	background-color: #0d47a1;
+}
+/*COR DE TEXTOS DENTRO DO FOOTER DO DATEPICKER*/
+.datepicker-footer {
+	color: #263238;
+}
+/*CORES DOS TEXTOS DE CANCELAR, LIMPAR, HOJE, FEITO*/
+.datepicker-cancel,
+.datepicker-clear,
+.datepicker-today,
+.datepicker-done {
+  color:  #0d47a1 ;
+}
+/*COR DE FUNDO DO BOTAO REDODNO DO DIA SELECIONADO*/
+.datepicker-table td.is-selected {
+	background-color: #b71c1c;
+}
+button.month-next:hover, button.month-prev:hover{
+	background-color: #0d47a1;
+}
+tbody tr:hover, .centered tbody tr:nth-child(even):hover {
+	background-color: #bdbdbd;
+	cursor: pointer;
+}

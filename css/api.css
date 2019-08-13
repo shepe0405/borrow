@@ -1,0 +1,9 @@
+/*COR DA LINHA DA TABELA PARA DAR EFEITO ZEBRADO*/
+.centered tbody > tr:nth-child(even) {
+	background-color: #e0e0e0;
+}
+tbody tr:hover, tbody tr:hover a
+{
+	color: #e53935;
+	cursor: pointer;
+}
